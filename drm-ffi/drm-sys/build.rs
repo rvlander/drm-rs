@@ -1,4 +1,3 @@
-#[cfg(feature = "use_bindgen")]
 mod use_bindgen {
     extern crate bindgen;
     extern crate pkg_config;
@@ -131,10 +130,7 @@ mod use_bindgen {
     }
 }
 
-#[cfg(feature = "use_bindgen")]
 pub fn main() {
     use_bindgen::generate_bindings();
 }
 
-#[cfg(not(feature = "use_bindgen"))]
-pub fn main() {}
