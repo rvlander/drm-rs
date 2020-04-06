@@ -9,7 +9,7 @@ authors = ["Tyler Slabinski <tslabinski@slabity.net>"]
 [dependencies]
 nix = "0.8.1"
 derive_more = "0.7.1"
-drm-sys = "0.0.9"
+drm-sys = {path = "drm-sys"}
 
 [dependencies.error-chain]
 version = "0.11.0"
