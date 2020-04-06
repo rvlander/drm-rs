@@ -10,9 +10,8 @@ build = "build.rs"
 libc = "*"
 
 [features]
-default = []
-use_bindgen = ["bindgen", "pkg-config"]
+default =  ["bindgen", "pkg-config"]
 
 [build-dependencies]
-bindgen = { version = "*", optional = true }
+bindgen = { version = "0.53.2", optional = true }
 pkg-config = { version = "*", optional = true }
