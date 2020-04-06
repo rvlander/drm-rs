@@ -10,5 +10,5 @@ build = "build.rs"
 libc = "*"
 
 [build-dependencies]
-bindgen = { version = "0.53.2", optional = true }
-pkg-config = { version = "*", optional = true }
+bindgen = { version = "0.53.2"}
+pkg-config = { version = "*"}
